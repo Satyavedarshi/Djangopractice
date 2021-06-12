@@ -22,4 +22,5 @@ import webapp1
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', webapp1.views.loginpage),
+    #path('posts/',webapp1.views.details),
 ]
